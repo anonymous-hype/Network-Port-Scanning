@@ -34,7 +34,7 @@ sudo nmap -A 10.0.2.0/24 -oN aggressive_scan.txt
 | IP Address | Open Ports | Services       | Notes                          |
 |------------|------------|----------------|--------------------------------|
 | 10.0.2.1   | 22, 80, 443| SSH, HTTP, HTTPS| Potential router admin portal  |
-| 10.0.2.5   | 445        | SMB            | **Warning**: SMBv1 detected ([CVE-2017-0143](https://nvd.nist.gov/vuln/detail/CVE-2017-0143)) |
+| 10.0.2.5   | 445        | SMB            | **Warning**: SMBv1 detected  |
 
 📌 **Key Observations**:
 - Router admin interface accessible at `10.0.2.1:80`
